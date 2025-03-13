@@ -238,9 +238,14 @@
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
+            
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{url('settings')}}" class="nav-link">
+                <a href="{{url('/settings')}}" class="nav-link 
+                @if(app('request')->route()->uri == 'settings')
+                active
+                @endif
+                ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Settings</p>
                 </a>

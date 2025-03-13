@@ -28,7 +28,7 @@ class HomeController extends Controller
     public function home1(){
         return view('pages.home1');
     }
-    public function settings(){
+    public function settings(Request $request){
         return view('crossapplication.settings');
     }
 }
