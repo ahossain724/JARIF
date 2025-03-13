@@ -134,7 +134,7 @@
             <div class="col">
               <div>
                 <label>Active</label>
-                <input type="checkbox" class="form-control" style="width: 100%;" />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
               </div>
             </div>
             <!-- /.col -->
