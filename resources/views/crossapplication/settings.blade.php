@@ -427,6 +427,9 @@
             <button type="button" class="btn btn-block btn-primary">Save</button>
           </div>
           <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
             <button type="button" class="btn btn-block btn-primary">Refresh</button>
           </div>
         </div>
@@ -437,6 +440,117 @@
       </div>
     </div>
     
+
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">GL Interface</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>GL Interface Type</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+           
+          </div>
+
+          <!-- /.col -->
+          <div class="col">
+            <div>
+              <label>Item Group</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+         
+          </div>
+          <div class="col">
+            <div>
+              <label style="font-size: 0.8em">Customer/Supplier/Agent Group</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Warehouse</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Account</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                </div>
+             </div>
+            </div>
+          </div>
+        <div class="row h-10"></div>
+        <!-- /.row -->
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+    </div>
     <!-- /.container-fluid -->
   </section>
     
