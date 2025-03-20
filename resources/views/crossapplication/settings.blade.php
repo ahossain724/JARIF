@@ -646,7 +646,7 @@
                 <label>Depot Row</label>
               </div>
               <div class="col-sm-4">
-                <input class="form-control"/>
+                <input class="form-control" tabindex="1"/>
               </div>
             </div>
             <div class="row mt-2">
@@ -654,7 +654,7 @@
                 <label>Address 1</label>
               </div>
               <div class="col">
-                <input class="form-control"/>
+                <input class="form-control" tabindex="4"/>
               </div>
             </div>
             <div class="row mt-2">
@@ -745,7 +745,7 @@
               </div>
               <div class="col">
                   <div class="input-group">
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" tabindex="2">
                     <div class="input-group-append">
                       <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
                     </div>
@@ -757,7 +757,7 @@
                 <label>Address 2</label>
               </div>
               <div class="col">
-                <input class="form-control"/>
+                <input class="form-control" tabindex="5"/>
               </div>
             </div>
             <div class="row mt-2">
@@ -815,7 +815,7 @@
                 <label>Name</label>
               </div>
               <div class="col">
-                <input class="form-control"/>
+                <input class="form-control" tabindex="3"/>
               </div>
             </div>
             <div class="row mt-2">
@@ -823,7 +823,7 @@
                 <label>City</label>
               </div>
               <div class="col">
-                <select class="form-control select2bs4 w-100">
+                <select class="form-control select2bs4 w-100" tabindex="6">
                   <option selected="selected">Alabama</option>
                   <option>Alaska</option>
                   <option>California</option>
