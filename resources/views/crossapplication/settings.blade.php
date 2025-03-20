@@ -523,7 +523,6 @@
               <label>Account</label>
               <div class="input-group">
                 <input type="text" class="form-control">
-
                 <div class="input-group-append">
                   <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
                 </div>
@@ -544,6 +543,399 @@
             <button type="button" class="btn btn-block btn-primary">Refresh</button>
           </div>
         </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+    </div>
+
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Messages</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>Code</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                </div>
+             </div>
+            </div>
+          </div>
+
+          <!-- /.col -->
+          <div class="col">
+            <div>
+              <label>Format</label>
+              <textarea rows="3" class="form-control h-100 w-100"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Message Type</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+        <div class="row h-10"></div>
+        <!-- /.row -->
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+    </div>
+
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Depots</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-5">
+                <label>Depot Row</label>
+              </div>
+              <div class="col-sm-4">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Address 1</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>State/Province</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Salutation</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Last Name</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Phone</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Tax Scope</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Port of Discharge</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Remarks</label>
+              </div>
+              <div class="col">
+                <textarea rows="3" class="form-control h-100 w-100"></textarea>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Id</label>
+              </div>
+              <div class="col-sm-4">
+                <input class="form-control"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-5">
+                <label>Depot Name</label>
+              </div>
+              <div class="col">
+                  <div class="input-group">
+                    <input type="text" class="form-control">
+                    <div class="input-group-append">
+                      <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Address 2</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Zip/Postal Code</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>First Name</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Title</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Fax</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Tax Number</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Alternate Code</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-5">
+                <label>Name</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>City</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label style="color: red">Country</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Middle Name</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Email</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>URL</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label style="color: red">Warehouse</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Short Name</label>
+              </div>
+              <div class="col">
+                <input class="form-control"/>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-5">
+                <label>Depot Type</label>
+              </div>
+              <div class="col">
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row h-10"></div>
+        <!-- /.row -->
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+       
+      </div>
+          
+        
       </div>
       <!-- /.card-body -->
       <div class="card-footer">
