@@ -1011,6 +1011,15 @@
     $('#reservationdate').datepicker({
       format: 'dd/mm/yyyy'
     });
+    $('#locationeffectivitydate').datepicker({
+      format: 'dd/mm/yyyy'
+    });
+    $('#locationexpirydate').datepicker({
+      format: 'dd/mm/yyyy'
+    });
+    $('#holidaysdate').datepicker({
+      format: 'dd/mm/yyyy'
+    });
     //Initialize Select2 Elements
     $('.select2bs4').select2({
       theme: 'bootstrap4'
@@ -1027,7 +1036,15 @@
     $('#reservationdate').datetimepicker({
         format: 'L'
     });
-
+    $('#locationeffectivitydate').datetimepicker({
+        format: 'L'
+    });
+    $('#locationexpirydate').datetimepicker({
+        format: 'L'
+    });
+    $('#holidaysdate').datetimepicker({
+        format: 'L'
+    });
     //Date and time picker
     $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
 

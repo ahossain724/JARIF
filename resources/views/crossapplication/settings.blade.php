@@ -62,6 +62,7 @@
           
         </div>
       </div>
+      
       <!-- /.card -->
 
       <div class="card card-default">
@@ -168,9 +169,7 @@
          
         </div>
       </div>
-
-      
-    </div>
+      </div>
     <!-- Transaction Codes-->
     <div class="card card-default">
       <div class="card-header">
@@ -934,8 +933,116 @@
       <div class="card-footer">
        
       </div>
+    </div>
+    
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Tax Table</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
           
-        
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>Tax Code</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">GST</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Tax Scope</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">01. Local-Registered</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Tax Category</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">Exempted</label>
+             
+            </div>
+          </div>
+
+          <div class="col">
+            <div>
+              <label>Tax Rate</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">0.0000</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label style="font-size: 0.6em;">Tax Rate-InterState</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">0.0000</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label style="font-size: 0.6em;">Tax Rate-Concessional</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">0.0000</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Account</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                </div>
+             </div>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Alternate Code</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">EP</label>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Blocked?</label>
+            </div>
+            <div>
+              <label style="font-size: 0.7em;font-weight:normal;">0</label>
+            </div>
+          </div>
+        <div class="row h-10"></div>
+        <!-- /.row -->
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
       </div>
       <!-- /.card-body -->
       <div class="card-footer">
@@ -943,6 +1050,355 @@
       </div>
     </div>
     </div>
+    
+
+    <!--Locations-->
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Locations</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>Location</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                </div>
+             </div>
+            </div>
+           
+          </div>
+
+          <!-- /.col -->
+          <div class="col">
+            <div class="form-group">
+              <label>Location Type</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+         
+          </div>
+          <div class="col">
+            <div>
+              <label>Region</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Country</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Effectivity Date</label>
+              <div class="input-group date" id="locationeffectivitydate" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#locationeffectivitydate"/>
+                <div class="input-group-append" data-target="#locationeffectivitydate" data-toggle="datetimepicker">
+                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Expiration Date</label>
+              <div class="input-group date" id="locationexpirydate" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#locationexpirydate"/>
+                <div class="input-group-append" data-target="#locationexpirydate" data-toggle="datetimepicker">
+                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="row">
+            <div class="col">
+              <div>
+                <label>Depot Name</label>
+                <select class="form-control select2bs4 w-100">
+                  <option selected="selected">Alabama</option>
+                  <option>Alaska</option>
+                  <option>California</option>
+                  <option>Delaware</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Washington</option>
+                </select>
+              </div>
+            </div>
+              <div class="col">
+                <div>
+                  <label>Default Payment Code</label>
+                  <select class="form-control select2bs4 w-100">
+                    <option selected="selected">Alabama</option>
+                    <option>Alaska</option>
+                    <option>California</option>
+                    <option>Delaware</option>
+                    <option>Tennessee</option>
+                    <option>Texas</option>
+                    <option>Washington</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col">
+                <div>
+                  <label>Time Slots</label>
+                  <select multiple="multiple" class="w-100">
+                    <option selected>Alabama</option>
+                    <option>Alaska</option>
+                    <option>California</option>
+                    <option>Delaware</option>
+                    <option>Tennessee</option>
+                    <option>Texas</option>
+                    <option>Washington</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col">
+                <div>
+                  <label>IP Address</label>
+                  <input class="form-control w-100"/>
+                </div>
+               </div>
+               <div class="col">
+                <div class="form-group">
+                  <label>Title Image URL</label>
+                  <input class="form-control w-100"/> 
+                </div>
+              </div>
+               <div class="col">
+                <label>Background Image URL</label>
+                <input class="form-control w-100"/> 
+              </div>
+              
+            </div>
+           </div>
+          
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+
+    <!--Receipts-->
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Receipts</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>Payment Code</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col">
+            <div class="form-group">
+              <label>Account</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Transaction Code</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+         </div>
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+
+    <!--Holidays-->
+    <div class="card card-default">
+      <div class="card-header">
+        <h3 class="card-title">Holidays</h3>
+
+        <div class="card-tools">
+          <button type="button" class="btn btn-tool" data-card-widget="maximize">
+            <i class="fas fa-expand"></i>
+          </button>
+          <button type="button" class="btn btn-tool" data-card-widget="collapse">
+            <i class="fas fa-minus"></i>
+          </button>
+          
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <div class="row">
+          <div class="col">
+            <div>
+              <label>Locale</label>
+              <select class="form-control select2bs4 w-100">
+                <option selected="selected">Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col">
+            <div class="form-group">
+              <label>Date</label>
+              <div class="input-group date" id="holidaysdate" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#holidaysdate"/>
+                <div class="input-group-append" data-target="#holidaysdate" data-toggle="datetimepicker">
+                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Available %</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <label>Notes</label>
+              <div class="input-group">
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fa-solid fa-clipboard"></i></span>
+                </div>
+             </div>
+            </div>
+          </div>
+         </div>
+        </br>
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Save</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Delete</button>
+          </div>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-block btn-primary">Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+       
+      </div>
+    </div>
+    
+    
+    
+    
+
+    
     <!-- /.container-fluid -->
   </section>
     
